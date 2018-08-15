@@ -1,0 +1,12 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+
+app:
+  topic:
+    foo: foo.t
+    
+
+#Starting zookeeper and default kafka server:MacOX
+#zkserver start
+#kafka-server-start /usr/local/etc/kafka/server.properties
